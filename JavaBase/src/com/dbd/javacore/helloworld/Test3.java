@@ -1,4 +1,4 @@
-package com.dbd.javacore;
+package com.dbd.javacore.helloworld;
 
 /**
  * 我为长者续一秒

@@ -1,4 +1,4 @@
-package com.dbd.javacore;
+package com.dbd.javacore.helloworld;
 
 import java.util.Scanner;
 

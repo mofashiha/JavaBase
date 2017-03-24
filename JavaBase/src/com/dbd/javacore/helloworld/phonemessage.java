@@ -1,4 +1,4 @@
-package com.dbd.javacore;
+package com.dbd.javacore.helloworld;
 
 public class phonemessage {
 	public static void main(String[] args){
