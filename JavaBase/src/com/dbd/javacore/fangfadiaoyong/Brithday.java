@@ -1,4 +1,4 @@
-package com.dbd.javacore.helloworld;
+package com.dbd.javacore.fangfadiaoyong;
 
 public class Brithday {
 	private int year;

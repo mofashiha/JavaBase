@@ -1,4 +1,4 @@
-package com.dbd.javacore.helloworld;
+package com.dbd.javacore.fangfadiaoyong;
 
 public class Person {
 
@@ -22,6 +22,11 @@ public class Person {
 	public static void main(String[] args) {
 		Person person = new Person("Rose", 20, false);
 		person.display();
+	}
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", age=" + age + ", married=" + married + "]";
 	}
 
 }

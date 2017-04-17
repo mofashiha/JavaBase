@@ -1,4 +1,4 @@
-package com.dbd.javacore.zwq;
+package com.dbd.javacore.ood;
 
 import com.dbd.javacore.helloworld.phonemessage;
 

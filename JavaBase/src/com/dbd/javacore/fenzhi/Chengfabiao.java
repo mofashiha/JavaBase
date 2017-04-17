@@ -1,4 +1,4 @@
-package com.dbd.javacore.helloworld;
+package com.dbd.javacore.fenzhi;
 
 public class Chengfabiao {
 
