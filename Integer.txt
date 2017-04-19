@@ -1,0 +1,13 @@
+public final class Integer{
+	public static final int MIN_VALUE;
+	public static final int MAX_VALUE;
+	public static final Class TYPE;
+	static final char[] digits;
+	static final char[] DigitTens;
+	static final char[] DigitOnes;
+	static final int[] sizeTable;
+	private final int value;
+	public static final int SIZE;
+	public static final int BYTES;
+	private static final long serialVersionUID;
+}
