@@ -23,7 +23,9 @@ public class Person implements Serializable {
 		return "personId:" + personId + "\tname:" + name + "\tpass:" + pass;
 	}
 	
-
+  public void print(){
+	  System.out.println(name);
+  }
 	}
 
 
