@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+#haha{
+	background-color:red;
+	color:blue;
+	position:absolute;
+	left:50px;
+   top:100px;
+   width:200px
+   ;height:100px;
+  visiblity:visible;
+  z-index:1
+  }
+  #heihei{
+	background-color:blue;
+	color:white;
+	position:absolute;
+	left:50px;
+   top:150px;
+   width:200px
+   ;height:100px;
+  visiblity:visible;
+  z-index:1
+  }
+	 

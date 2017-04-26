@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../../Js/JavaScript.js"></script>
+
+<script type="text/javascript">
+function print() {
+	document.write("香港记者跑得快");
+}
+ function DiaLogBox(){
+	 var temp=prompt("多大啦","20岁"); 
+	/* var temp=confirm("多大啦"); */ 
+        alert(temp);   
+ }
+ function Close1(){
+	 window.close();
+ }
+ </script>
+ </head>
+<body >
+<input type="button" value="登录" onclick="DiaLogBox()">
+<a href="javascript:self.close()">关闭窗口</a>
+<input type="button" value="关闭" onclick="Close1()">
+<input type="button" value="测试" onclick="Test()">
+<input type="button" value="document" onclick="print()">
+<input type="button" value="forIn" onclick="forIn(22,11,33)">
+</body>
+</html>

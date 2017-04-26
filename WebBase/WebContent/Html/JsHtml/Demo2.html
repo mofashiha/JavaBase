@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript">
+         function zhangzhe(name,age,skill,isLive) {
+			this.name=name;
+			this.age=age;
+			this.skill=skill;
+			this.isLive=isLive;
+			this.toString=zhangzheToString;
+		}
+         function zhangzheToString() {
+			return "name:"+this.name+"\n"+
+			       "age:"+this.age+"\n"+
+			       "skill:"+this.skill+"\n"+
+			       "isLive?:"+Boolean(this.isLive);
+		}
+         function test() {
+			
+      var jzm=new zhangzhe("jianghaha",91,"+1s",true);
+         console.info("jzm:",jzm);
+         //利用原型对象添加属性
+         zhangzhe.prototype.glassColor="black";
+         //利用expando属性添加属性
+         jzm.hairColor="        white black";
+         jzm.hight=172;
+         console.info("jzm.glassColor:",jzm.glassColor);
+         console.info("jzm:",jzm);
+          var sanbaliu=new zhangzhe("hongyizhujiao",91,"-1s",true);
+           console.info("sanbaliu:",sanbaliu);
+           zhangzhe.prototype.mofa=function(str){
+        	   return str.replace(/(^\s*)|(\s*$)/g,"");
+           }
+           console.info("jzm.hairColor:",jzm.hairColor);
+           var mofaHairColor=jzm.mofa(jzm.hairColor);
+           console.info("jzm.hairColor: ",mofaHairColor);
+         
+         }
+
+</script>
+<body >
+<input type="button" value="长者" onclick="test()"/>
+
+</body>
+</html>
