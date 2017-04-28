@@ -39,10 +39,27 @@
            console.info("jzm.hairColor: ",mofaHairColor);
          
          }
+        function cfm() {
+			if(confirm("确定离开么？"))
+				{
+				window.close();//self.close()
+				}
+			else
+			    {
+				return false;
+			    }
+		}
+        function open1() {
+        	window.open("https://www.baidu.com");
+		}
 
 </script>
 <body >
 <input type="button" value="长者" onclick="test()"/>
+<input type="button" value="cfm" onclick="cfm()"/>
+<input type="button" value="跳转到百度1" onclick="open1()"/>
+<input type="button" value="跳转到百度2" onclick="window.open('https://www.baidu.com')"/>
+<input type="button" value="跳转到百度3" onclick="location.href='https://www.baidu.com'"/>
 
 </body>
 </html>
