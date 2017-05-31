@@ -1,6 +1,7 @@
 /**
  * 
  */
+
 function Test() {
 	alert("这是一个测试");
 
@@ -14,4 +15,27 @@ function forIn() {
 
 	}
 
+	function changeColor() {
+		$('#fruit').css('color','red')
+		
+	}
+	function changDocument() {
+		$('.vagetable').html("我改变了文本")
+	}
+	function doubleChange() {
+		$('.vagetable,#fruit').css('color','green')
+	}
+}
+function iff() {
+	 if($('#btn').val()==("点击隐藏")){
+    	
+    		 $('#btn').attr('value',"点击显示")
+             $('div').hide('slow')
+    	
+     }
+     else{
+    	
+    		 $('#btn').attr('value',"点击隐藏")
+             $('div').show('slow')            
+     }	
 }
